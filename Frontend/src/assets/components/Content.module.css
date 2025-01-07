@@ -1,0 +1,51 @@
+/* Content.module.css */
+.container {
+    height: 450px;
+    width: 100%;
+    color: white;
+    background-image: url('../images/Image2.png');
+    background-size: cover;
+    background-color: #333176;
+  }
+  
+  .heading {
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .textContainer {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .sampleText {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .lineHeight {
+    line-height: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 2.5rem;
+    }
+  
+    .textContainer {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heading {
+      font-size: 2rem;
+    }
+  
+    .textContainer {
+      width: 90%;
+    }
+  }
+  

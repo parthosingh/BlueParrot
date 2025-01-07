@@ -1,0 +1,79 @@
+.container {
+    background-color: #2a3b62;
+    color: white;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  .description {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .plan {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .plan h4 {
+    margin: 10px 0;
+  }
+  
+  .plan h1 {
+    font-size: 2rem;
+  }
+  
+  .plan h5 {
+    color: #81879f;
+  }
+  
+  .getStartedButton {
+    border: 1px solid white;
+    width: 50%;
+    border-radius: 25px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .getStartedButton.green {
+    background-color: #E93A7D;
+  }
+  
+  .getStartedButton:hover {
+    background-color: #c9336a;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .getStartedButton {
+      width: 80%;
+    }
+  }
+  

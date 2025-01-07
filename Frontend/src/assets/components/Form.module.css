@@ -1,0 +1,151 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    background-image: url('../images/Image3.png');
+    background-color: #5e5493;
+    background-size: cover;
+    padding: 20px;
+}
+
+.textContainer {
+    width: 20%;
+    margin-top: 7%;
+    color: white;
+}
+
+.card {
+    border-radius: 10px;
+    width: 25%;
+    background-color: white;
+    margin-top: 3%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cardHeader {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.activeTab {
+    border-top: 2px solid black;
+    width: 50%;
+}
+
+.inactiveTab {
+    border-top: 1px solid grey;
+    width: 50%;
+}
+
+.input {
+    border: 1px solid grey;
+    padding: 3px 0px 3px 20px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    color: grey;
+    text-align: left;
+}
+
+.divider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.line {
+    border-bottom: 1px solid grey;
+    flex-grow: 1;
+}
+
+.or {
+    color: grey;
+}
+
+.createAccountBtn, .loginBtn {
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.createAccountBtn {
+    background-color: #25D3AC;
+}
+
+.loginBtn {
+    background-color: #1DA1F2;
+}
+
+/* Mobile view styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .textContainer {
+        width: 90%;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .card {
+        width: 90%;
+        padding: 15px;
+        margin: auto;
+    }
+
+    .cardHeader {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tabs {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .activeTab, .inactiveTab {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .formContainer {
+        width: 90%;
+        margin: auto;
+    }
+
+    .input {
+        padding: 10px;
+    }
+
+    .divider {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .line {
+        width: 80%;
+    }
+
+    .or {
+        margin: 10px 0;
+    }
+
+    .createAccountBtn, .loginBtn {
+        width: 100%;
+        padding: 15px;
+        border-radius: 50px;
+    }
+}
